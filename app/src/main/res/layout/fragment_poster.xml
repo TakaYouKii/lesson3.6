@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MusicListFragment"
+    android:background="@drawable/after_hours">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Now Playing"
+        android:textSize="28sp"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="100dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="After hours"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_margin="40dp"
+        android:textStyle="italic|bold"
+        android:layout_gravity="bottom|start"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Weekend"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="40dp"
+        android:textStyle="italic|bold"
+        android:layout_gravity="bottom|start"
+        android:layout_marginBottom="5dp"/>
+</FrameLayout>
